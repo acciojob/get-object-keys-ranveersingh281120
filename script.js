@@ -5,7 +5,7 @@ let student = {
 	city:"hyd"
 };
 function getKeys(student) {
-	return student.name(student);
+	return student.keys(student)
 	
 }
 console.log(getKeys(student))
