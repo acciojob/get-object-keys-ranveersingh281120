@@ -1,10 +1,10 @@
 //your JS code here. If required.
 let student = {
 	name:"ranveer",
-	
 };
-function getKeys(student) {
-	return Object.keys(student)
+function getKeys(obj) {
+	let keys = Object.keys(obj);
+	
+	return keys
 	
 }
-console.log(getKeys(student))
